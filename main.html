@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <!-- container 1a -->
-        <div class="container-one">
+        <div class="flex-container container-one dark-background-color">
             <!-- 4 boxes-->
             <div class="header-logo">Header Logo</div>
             <div class="container-header-link">
@@ -24,57 +24,67 @@
 
         </div>
         <!-- container 1b -->
-        <div class="container-two">
+        <div class="flex-container container-two dark-background-color">
             <div class="half-container">
-                <div class="hero-main">This website is awesome </div>
+                <div class="hero-main">This website is <br> awesome </div>
                 <div class="hero-secondary">This website has some subtext that goes here under the main title. It's a smaller font and the conlor
                     is lower contrast</div>
-                <div class="button">button</div>
+                <div class="flex-disp">
+                    <div class="button button-1">Sign up</div>
+                </div>
+                
             </div>
             
-            <div class="half-container">
-                <div>image</div>
+            <div class="half-container container-img">
+                <div>This is a placeholder for an image</div>
             </div>
         </div>
         <!-- Second container -->
-        <div>
-            <div>Some random information</div>
+        <div class="flex-container-2 container-three">
+            <div class="information-header-text">Some random information</div>
             <div class="container-box">
                 <!-- 4 boxes, with each box, include 1 visible box and 1 text box -->
-                <div>
+                <div class="box-text">
                     <div class="box"></div>
-                    <div></div>
+                    <div class="img-subtext">This is some subtext under an illustration of an image</div>
                 </div>
-                <div>
+                <div class="box-text">
                     <div class="box"></div>
-                    <div></div>
+                    <div class="img-subtext">This is some subtext under an illustration of an image</div>
                 </div>
-                <div>
+                <div class="box-text">
                     <div class="box"></div>
-                    <div></div>
+                    <div class="img-subtext">This is some subtext under an illustration of an image</div>
                 </div>
-                <div>
+                <div class="box-text">
                     <div class="box"></div>
-                    <div></div>
+                    <div class="img-subtext">This is some subtext under an illustration of an image</div>
                 </div>
             </div>
 
         </div>
 
         <!-- Third container -->
-        <div>
-            <div>Text</div>
-            <div>Text author</div>
+        <div class="flex-container-2 quote-container">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <div class="quote-author">Text author</div>
         </div>
 
         <!-- Last container -->
-        <div>
-            <div>Textbox</div>
-            <div>Small textbox</div>
-            <div class="button">Button</div>
+        <!-- cta = call to action -->
+        <div class="cta-container">
+                <div class="cta-sub-1">
+                    <div class="header-logo">Call to action! It's time!</div>
+                    <div>Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <div class="cta-sub-2">
+                    <div class="button-2">Sign up</div>
+                </div>
+
+            
         </div>
 
-        <div>Copyright </div>
+        <div class="flex-container dark-background-color cpr">Copyright @ The Odin Project 2021</div>
     </div>
 </body>
 
